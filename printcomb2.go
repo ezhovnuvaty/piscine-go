@@ -16,7 +16,7 @@ func PrintComb2() {
 					}
 					z01.PrintRune(a1)
 					z01.PrintRune(b1)
-					z01.PrintRune(' ')
+					z01.PrintRune(32)
 					z01.PrintRune(a2)
 					z01.PrintRune(b2)
 					if a1 != '9' || b1 != '8' || a2 != '9' || b2 != '9' {
