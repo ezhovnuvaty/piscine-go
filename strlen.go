@@ -1,5 +1,4 @@
- 
-package piscine
+ package piscine
 
 func StrLen(str string) int {
 	var arr = []rune(str)
