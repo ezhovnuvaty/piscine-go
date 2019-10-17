@@ -2,7 +2,7 @@ package piscine
 
 func StrRev(s string) string {
 	var arr = []rune(s)
-	var len int = o
+	var len int = 0
 	for a := range arr {
 		len = a
 	}
