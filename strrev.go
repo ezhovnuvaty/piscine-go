@@ -1,6 +1,6 @@
 package piscine
 
-func StrRev (s strring) string {
+func StrRev(s strring) string {
 	var arr = []rune(s)
 	var len int = o
 	for a := range arr {
