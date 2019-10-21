@@ -2,7 +2,7 @@ package piscine
 
 func iterativefactorial(nb int) int {
 	result := 1
-	if nb < 0 || nb >= 20 {
+	if nb < 0 || nb >= 2147483647 {
 		return 0
 	}
 	for i := 0; i <= nb; i++ {
