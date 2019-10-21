@@ -1,6 +1,6 @@
 package piscine
 
-func iterativefactorial(nb int) int {
+func IterativeFactorial(nb int) int {
 	result := 1
 	if nb < 0 || nb >= 2147483647 {
 		return 0
