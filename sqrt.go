@@ -1,4 +1,4 @@
- package piscine
+package piscine
 
 func Sqrt(nb int) int {
 	if nb == 1 {
