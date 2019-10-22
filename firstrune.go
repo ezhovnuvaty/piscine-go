@@ -1,4 +1,4 @@
-packsge package
+package piscine
 
 func FirstRune(s string) rune {
 	Rune := []rune(s)
