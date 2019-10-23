@@ -1,9 +1,8 @@
 package piscine
 
-func IsPrintable(s string) bool {
-	str := []rune(s)
-	for i := 0; i < RuneArrayLength(str); i++ {
-		if str[i] > 127 || str[i] < 32 {
+func IsPrintable(str string) bool {
+	for _, v := range []rune(str) {
+		if v >= 0 && v <= 31 {
 			return false
 		}
 	}
