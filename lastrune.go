@@ -1,12 +1,12 @@
 package piscine
 
 func LastRune(s string) rune {
-	result := []rune(s)
+	Rune := []rune(s)
 
-	for index, value := range result {
-		if index == len(result)-1 {
-			return value
-		}
+	count := 0
+	for index := range s {
+		count = index
 	}
-	return 0
+
+	return Rune[count]
 }
