@@ -1,7 +1,5 @@
 package piscine
 
-import "github.com/01-edu/z01"
-
 func LastRune(s string) rune {
 	result := []rune(s)
 
