@@ -1,6 +1,6 @@
 package piscine
 
-func ToUpper(s string) string {
+func ToLower(s string) string {
 
 	var st string
 	for _, i := range s {
