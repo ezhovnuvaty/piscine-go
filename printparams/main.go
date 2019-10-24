@@ -1,10 +1,12 @@
 package main
 
 import (
-	"github.com/01-edu/z01"
 	"os"
+
+	"github.com/01-edu/z01"
 )
-func main()  {
+
+func main() {
 	args := os.Args[1:]
 	for _, word := range args {
 		for _, letter := range word {
